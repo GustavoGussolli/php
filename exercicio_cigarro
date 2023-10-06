@@ -1,0 +1,27 @@
+<?php
+
+    $cigarro = 10;
+    $anos = 3;
+    $min = 11;
+    $cig_fum;
+    $vida = 0;
+    $dias_a_menos = 0 ;
+
+    $anos = readLine("A quantos anos você fuma? \n R:");
+    
+
+    $cig_fum = $cigarro * 365 * $anos ;
+
+    $vida = $cig_fum * $min;
+
+    $dias_a_menos = $vida / 60 / 24 ;
+
+    $dias_a_menos  = ceil($dias_a_menos);
+
+    print "você perdeu $dias_a_menos dias de vida \n";
+
+    //print "Se a pessoa fumar 10 cigarros por dia por 3 anos ele perdera $dias_a_menos dias de vida ";
+
+
+
+?>
