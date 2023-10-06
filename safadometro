@@ -12,7 +12,7 @@ function safadometro(int $dia ,int $mes ,int $ano){
 
     $anjo = 0;
 
-   $safadeza = somatorio($mes) + ($ano/100) * (50-$dia);
+   $safadeza = somatorio($mes) + ($ano/1000) * (50-$dia);
    $anjo = 100 - $safadeza;
 
    print "{$anjo}% anjo perfeito , mas aquele {$safadeza}% não anjo";
