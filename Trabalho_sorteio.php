@@ -1,10 +1,37 @@
 <?php
 
+
+echo "              ############################ \n";
+echo "              #           JOGOS          # \n";
+echo "              ############################ \n";
+echo "              #        -MEGA-SENA        # \n";
+echo "              ############################ \n";
+echo "              #        -LOTOFÁCIL        # \n";
+echo "              ############################ \n";
+echo "              #          -QUINA          # \n";
+echo "              ############################ \n";
+echo "              #        -LOTOMANIA        # \n";
+echo "              ############################ \n";
+
+
 $jogo = readline("Escolha o jogo (Mega-Sena, Lotofácil, Quina e Lotomania): ");
 
 while($jogo != "Mega-Sena" && $jogo != "Lotofácil" && $jogo != "Quina" && $jogo != "Lotomania" ) {
 
     echo "Informe um jogo \n";
+
+    echo "              ############################ \n";
+    echo "              #           JOGOS          # \n";
+    echo "              ############################ \n";
+    echo "              #        -MEGA-SENA        # \n";
+    echo "              ############################ \n";
+    echo "              #        -LOTOFÁCIL        # \n";
+    echo "              ############################ \n";
+    echo "              #          -QUINA          # \n";
+    echo "              ############################ \n";
+    echo "              #        -LOTOMANIA        # \n";
+    echo "              ############################ \n";
+
     $jogo = readline("Escolha o jogo (Mega-Sena, Lotofácil, Quina e Lotomania): ");
 
 }
