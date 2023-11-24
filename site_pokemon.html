@@ -1,0 +1,61 @@
+<html>
+    
+   
+    <head>
+        <title>Pokedex</title>
+
+        <style>
+
+        #pesquisa{
+
+            background: red;
+            padding: 20px;
+            text-align: center;
+            
+        }
+
+        .pokemon {
+
+            width: 20%;
+            border: solid 5px #555;
+            padding: 15px;
+            float: left;
+            margin: 10px 10px 10px 10px;
+
+        }
+
+        .pokemon img{
+            max-width: 100%
+        }
+
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <div id="Pesquisa">
+            <form>
+                <input type="text" placeholder="Digite um pokemon" >
+                <input type="submit" value="Buscar">
+            </form>
+        </div>
+
+        <?php for($i = 0 ; $i < 20; $i++): ?>
+        <div id="pokemons">
+
+            <div class="pokemon">
+
+            <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png" alt="A imagem não está disponivel" width="200px">
+            <h1>Pikachu</h1>
+            <p>peso: 34</p>
+            <p>altura: 34</p>
+
+            </div>
+            <?php endfor; ?>
+
+        </div>
+
+    </body>
+</html>
